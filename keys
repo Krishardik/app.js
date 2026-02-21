@@ -1,0 +1,34 @@
+# ===============================
+# AWS Secret Scanning Test File
+# ===============================
+
+# 1️⃣ AWS Bedrock Long-term API Key (simulated format)
+AWS_BEDROCK_API_KEY=ABRK-1234abcd5678efgh9012ijkl3456mnop
+
+# 2️⃣ AWS Cognito OAuth 2.0 Credentials (simulated)
+AWS_COGNITO_CLIENT_ID=4h57exampleclientid12345
+AWS_COGNITO_CLIENT_SECRET=1h57exampleclientsecret67890xyz
+
+# 3️⃣ AWS Cognito OAuth 2.0 Credentials with Host
+AWS_COGNITO_HOST=https://myapp.auth.us-east-1.amazoncognito.com
+AWS_COGNITO_CLIENT_ID_WITH_HOST=7k89exampleclientid54321
+AWS_COGNITO_CLIENT_SECRET_WITH_HOST=9z12exampleclientsecret09876
+
+# 4️⃣ AWS IAM Access Key
+AWS_ACCESS_KEY_ID=AKIA1234567890ABCD12
+AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENGbPxRfiCYEXAMPLEKEY
+
+# 5️⃣ AWS IAM STS Temporary Credentials
+AWS_STS_ACCESS_KEY_ID=ASIA1234567890TEMP12
+AWS_STS_SECRET_ACCESS_KEY=STSExampleSecretKey1234567890abcdef
+AWS_STS_SESSION_TOKEN=IQoJb3JpZ2luX2VjEEXAMPLETOKENabc123xyz
+
+# 6️⃣ AWS SES Key (SMTP format simulation)
+AWS_SES_SMTP_USERNAME=AKIASES1234567890ABCD
+AWS_SES_SMTP_PASSWORD=BMFakeSESsmtpPasswordExample123456
+
+# 7️⃣ Base64 Encoded AWS Key (simulated)
+BASE64_AWS_KEY=QUtJQTEyMzQ1Njc4OTBBQkNEMTI=
+
+# 8️⃣ Base64 Encoded AWS SES Key (simulated)
+BASE64_AWS_SES_KEY=Qk1GYWtlU0VTc210cFBhc3N3b3JkRXhhbXBsZTEyMzQ1Ng==
